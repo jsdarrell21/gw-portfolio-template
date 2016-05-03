@@ -1,0 +1,255 @@
+/*Portfolio Template Styles*/
+
+/*
+Primary Color: #4A0100 (maroon)
+Secondary Color: #00A5D1 (light blue)
+Third Color: #55FF00 (lime green)
+Font Color: #4E4F4E (black)
+*/
+
+/*Global Styles*/
+body, html{
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+/*Header Styles*/
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #4A0100;
+}
+
+.logo{
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding: 20px 0px;
+  color: #fff;
+  font-style: italic;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+  color: #fff;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/*Banner Styles*/
+#banner{
+  height: 300px;
+  width: 100%;
+  background: url("../img/city.jpeg");
+  background-size: cover;
+  background-position: 10%;
+  background-attachment: fixed;
+}
+
+#banner h1{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 3em;
+  color: #000;
+    font-family: 'Lobster Two', cursive;
+}
+
+/*Skills Styles*/
+#skills{
+  height: 350px;
+  width: 100%;
+  background-color: #4A0100;
+  padding-top: 45px;
+}
+
+.skills-container{
+  height: 75%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article{
+  width: 25%;
+  height: 100%;
+  background-color: #00A5D1;
+  float: left;
+  margin: 0px 45px;
+  padding: 15px 15px;
+  border-radius: 5px;
+  text-align: justify;
+  color: #fff;
+}
+
+#skills article h1{
+  text-align: center;
+}
+
+/*About Styles*/
+#about{
+  padding: 50px 0;
+  width: 100%;
+  background-color: #3B0545;
+  display: inline-flex;
+  color: #fff;
+}
+
+.img-box{
+  height: 400px;
+  width: 25%;
+  float: left;
+}
+
+.img-container{
+  height: 200px;
+  width:250px;
+  margin-left: 25%;
+  margin-top: 85px;
+  background-color: grey;
+  border-radius: 100%;
+}
+
+#about img{
+height:100%;
+border-radius: 100%
+}
+
+.about-info{
+  height: 400px;
+  width: 75%;
+  float: left;
+}
+
+.about-content{
+  height:300px;
+  width:85%;
+  border: 2px dashed #333;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+#about h1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#about p{
+  padding: 0px 15px;
+  text-align: justify;
+  margin:0;
+}
+
+/*Contact Styles*/
+#contact{
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+  background: url("../img/forest.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#contact h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.form-box{
+  height: 325px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+}
+
+#contact input{
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  height: 125px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact button{
+  height:40px;
+  width: 125px;
+  margin: 10px 0;
+  background-color: #00A5D1;
+  border: 2px solid #333;
+  font-size: 1.2em;
+  color:#fff;
+}
+
+#contact button:hover{
+  background-color:darkblue;
+}
+
+/*Footer Styles*/
+footer{
+  height:200px;
+  width:100%;
+  background-color: #333;
+  clear: both;
+}
+
+.copyright p{
+  margin:0;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.sm-icons{
+  width:180px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.icon{
+  height: 50px;
+  width:50px;
+  float: left;
+  background-color: #fff;
+  margin:0 5px;
+  border-radius:100%;
+}
+
+.icon i{
+  font-size: 2em;
+  padding: 10px;
+  color: #333;
+}
